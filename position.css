@@ -1,0 +1,28 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#middle {
+    background-color: aquamarine;
+}
+
+#second {
+    background-color: brown;
+}
+
+#relative #middle {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+#absulute #middle {
+    position: absolute;
+    bottom: 50px;
+
+}
